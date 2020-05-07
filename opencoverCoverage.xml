@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.7.922.0">
-  <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+  <Summary numSequencePoints="17" visitedSequencePoints="13" numBranchPoints="5" visitedBranchPoints="4" sequenceCoverage="76.47" branchCoverage="80" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="2" numClasses="2" visitedMethods="4" numMethods="5" />
   <Modules>
     <Module skippedDueTo="Filter" hash="79-17-EF-07-1D-2B-AA-18-22-AA-EC-2E-BE-5F-ED-42-E8-1D-EC-56">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
@@ -158,10 +158,10 @@
       <ModuleName>System.Web</ModuleName>
       <Classes />
     </Module>
-    <Module hash="EE-3F-81-D6-82-05-D2-F8-18-B9-6D-B8-5A-92-EF-08-AB-67-B4-C7">
-      <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+    <Module hash="51-84-D4-A5-63-4F-CF-15-79-CE-48-12-4D-A3-52-C3-60-E5-FA-43">
+      <Summary numSequencePoints="11" visitedSequencePoints="10" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="90.91" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
       <ModulePath>C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\UnitTests\bin\Debug\UnitTests.dll</ModulePath>
-      <ModuleTime>2020-05-06T10:49:34.8694536Z</ModuleTime>
+      <ModuleTime>2020-05-07T09:00:27.2411809Z</ModuleTime>
       <ModuleName>UnitTests</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\UnitTests\Tests.cs" />
@@ -173,7 +173,7 @@
           <Methods />
         </Class>
         <Class>
-          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <Summary numSequencePoints="11" visitedSequencePoints="10" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="90.91" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
           <FullName>UnitTests.Tests</FullName>
           <Methods>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
@@ -182,20 +182,48 @@
               <Name>System.Void UnitTests.Tests::Test1()</Name>
               <FileRef uid="1" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="1" uspid="2" ordinal="1" offset="1" sl="12" sc="13" el="12" ec="31" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="1" uspid="3" ordinal="2" offset="8" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="2" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="31" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="3" ordinal="2" offset="8" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="1" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="1" />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void UnitTests.Tests::Test2()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="4" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="5" ordinal="1" offset="1" sl="19" sc="13" el="19" ec="55" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="6" ordinal="2" offset="7" sl="20" sc="13" el="20" ec="37" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="7" ordinal="3" offset="14" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="4" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="75" branchCoverage="100" crapScore="1.02" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="75" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1.02" minCrapScore="1.02" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void UnitTests.Tests::FailTest()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="8" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="9" ordinal="1" offset="1" sl="26" sc="13" el="26" ec="55" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="10" ordinal="2" offset="7" sl="27" sc="13" el="27" ec="33" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="11" ordinal="3" offset="14" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="8" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="1" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
-              <MetadataToken>100663298</MetadataToken>
+              <MetadataToken>100663300</MetadataToken>
               <Name>System.Void UnitTests.Tests::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="0" uspid="4" ordinal="0" offset="0" />
+              <MethodPoint vc="0" uspid="12" ordinal="0" offset="0" />
             </Method>
           </Methods>
         </Class>
@@ -206,6 +234,54 @@
       <ModuleTime>2019-03-19T04:46:51.77351Z</ModuleTime>
       <ModuleName>System.Xml</ModuleName>
       <Classes />
+    </Module>
+    <Module hash="5C-E2-C7-86-8F-66-77-08-8C-CF-BE-05-B1-2A-6A-F3-BF-23-59-87">
+      <Summary numSequencePoints="6" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="50" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
+      <ModulePath>C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\UnitTests\bin\Debug\CoverallsTest.exe</ModulePath>
+      <ModuleTime>2020-05-07T09:00:26.8171776Z</ModuleTime>
+      <ModuleName>CoverallsTest</ModuleName>
+      <Files>
+        <File uid="3" fullPath="C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\CoverallsTest\Program.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="50" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
+          <FullName>CoverallsTest.Program</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void CoverallsTest.Program::Main(System.String[])</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="13" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="14" ordinal="1" offset="1" sl="9" sc="13" el="9" ec="55" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="15" ordinal="2" offset="12" sl="10" sc="9" el="10" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="13" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.String CoverallsTest.Program::GetCurrentDateString()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="16" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="2" uspid="17" ordinal="1" offset="1" sl="14" sc="13" el="14" ec="47" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="2" uspid="18" ordinal="2" offset="22" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="16" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
     </Module>
     <Module skippedDueTo="Filter" hash="CC-DB-8A-78-1D-14-03-CA-9E-57-77-AD-02-B0-11-1E-9D-D0-F8-EB">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
