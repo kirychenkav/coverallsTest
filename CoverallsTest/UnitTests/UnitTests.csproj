@@ -4,11 +4,12 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{209F4CEC-47B5-47DC-8661-7FA478099D98}</ProjectGuid>
-        <OutputType>Exe</OutputType>
+        <ProjectGuid>{9C665D0C-22E5-47DB-A82D-614BEBB977B9}</ProjectGuid>
+        <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+        <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>CoverallsTest</RootNamespace>
-        <AssemblyName>CoverallsTest</AssemblyName>
+        <RootNamespace>UnitTests</RootNamespace>
+        <AssemblyName>UnitTests</AssemblyName>
         <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
@@ -36,16 +37,19 @@
         <Reference Include="System.Core" />
         <Reference Include="System.Data" />
         <Reference Include="System.Xml" />
+        <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb">
+            <HintPath>..\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
+        </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Program.cs" />
+        <Compile Include="Tests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
-      <Content Include=".coveralls.yml" />
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="packages.config" />
+      <ProjectReference Include="..\CoverallsTest\CoverallsTest.csproj">
+        <Project>{209f4cec-47b5-47dc-8661-7fa478099d98}</Project>
+        <Name>CoverallsTest</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

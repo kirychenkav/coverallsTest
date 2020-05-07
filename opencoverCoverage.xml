@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.7.922.0">
+  <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="79-17-EF-07-1D-2B-AA-18-22-AA-EC-2E-BE-5F-ED-42-E8-1D-EC-56">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2020-01-09T19:44:32.1866878Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="42-C9-8F-EF-AA-E3-63-C5-C5-2D-17-C3-6F-59-D1-AD-14-6C-99-BE">
+      <ModulePath>C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\packages\NUnit.ConsoleRunner.3.11.1\tools\nunit3-console.exe</ModulePath>
+      <ModuleTime>2020-02-15T13:53:42Z</ModuleTime>
+      <ModuleName>nunit3-console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4A-9D-81-85-DC-CF-74-ED-91-AC-6F-7B-37-3D-3E-0B-36-5C-56-66">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2019-07-24T02:58:28Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="32-22-F7-34-49-53-3E-B3-76-84-22-8E-73-CA-B5-1C-BA-AE-AC-DA">
+      <ModulePath>C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\packages\NUnit.ConsoleRunner.3.11.1\tools\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2020-02-15T13:53:40Z</ModuleTime>
+      <ModuleName>nunit.engine.api</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="55-68-0A-99-61-63-60-B6-04-BF-64-64-0F-2D-A7-2F-84-F0-63-24">
+      <ModulePath>C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\packages\NUnit.ConsoleRunner.3.11.1\tools\nunit.engine.dll</ModulePath>
+      <ModuleTime>2020-02-15T13:53:42Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="55-68-0A-99-61-63-60-B6-04-BF-64-64-0F-2D-A7-2F-84-F0-63-24">
+      <ModulePath>C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\packages\NUnit.ConsoleRunner.3.11.1\tools\nunit.engine.dll</ModulePath>
+      <ModuleTime>2020-02-15T13:53:42Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="33-0F-CC-4F-90-8C-B0-D8-44-D2-72-BB-E0-86-1E-17-FE-06-EB-9C">
+      <ModulePath>C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\packages\NUnit.ConsoleRunner.3.11.1\tools\nunit.engine.core.dll</ModulePath>
+      <ModuleTime>2020-02-15T13:53:40Z</ModuleTime>
+      <ModuleName>nunit.engine.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-94-4B-50-1E-D5-31-87-F3-25-6E-BA-07-71-E4-9F-22-0D-B8-34">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2019-03-19T04:46:51.77351Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="04-92-31-F6-AF-DB-82-CE-7F-AD-A9-52-42-0C-26-C5-2A-65-10-FA">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2019-11-23T04:37:24.5053551Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A7-7B-4E-D4-75-E8-13-EA-81-E3-7A-CE-3B-E3-5B-7B-B9-B9-D8-B3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2019-03-19T04:46:46.6637279Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DF-C9-61-37-67-FC-86-B5-19-6B-51-39-78-82-42-F2-94-44-FD-2F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2019-03-19T04:46:46.1168105Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="8A-2E-8F-D6-9D-39-02-4A-2F-30-FC-06-42-F7-0F-A8-32-69-07-72">
+      <ModulePath>C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\packages\NUnit.ConsoleRunner.3.11.1\tools\Mono.Cecil.dll</ModulePath>
+      <ModuleTime>2015-04-30T13:02:16Z</ModuleTime>
+      <ModuleName>Mono.Cecil</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-17-EF-07-1D-2B-AA-18-22-AA-EC-2E-BE-5F-ED-42-E8-1D-EC-56">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2020-01-09T19:44:32.1866878Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="22-5B-0D-43-CD-61-A2-25-A2-96-F8-58-18-EF-B4-63-29-C8-C8-2E">
+      <ModulePath>C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\packages\NUnit.ConsoleRunner.3.11.1\tools\nunit-agent.exe</ModulePath>
+      <ModuleTime>2020-02-15T13:53:42Z</ModuleTime>
+      <ModuleName>nunit-agent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="32-22-F7-34-49-53-3E-B3-76-84-22-8E-73-CA-B5-1C-BA-AE-AC-DA">
+      <ModulePath>C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\packages\NUnit.ConsoleRunner.3.11.1\tools\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2020-02-15T13:53:40Z</ModuleTime>
+      <ModuleName>nunit.engine.api</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="33-0F-CC-4F-90-8C-B0-D8-44-D2-72-BB-E0-86-1E-17-FE-06-EB-9C">
+      <ModulePath>C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\packages\NUnit.ConsoleRunner.3.11.1\tools\nunit.engine.core.dll</ModulePath>
+      <ModuleTime>2020-02-15T13:53:40Z</ModuleTime>
+      <ModuleName>nunit.engine.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4A-9D-81-85-DC-CF-74-ED-91-AC-6F-7B-37-3D-3E-0B-36-5C-56-66">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2019-07-24T02:58:28Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-94-4B-50-1E-D5-31-87-F3-25-6E-BA-07-71-E4-9F-22-0D-B8-34">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2019-03-19T04:46:51.77351Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="04-92-31-F6-AF-DB-82-CE-7F-AD-A9-52-42-0C-26-C5-2A-65-10-FA">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2019-11-23T04:37:24.5053551Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A7-7B-4E-D4-75-E8-13-EA-81-E3-7A-CE-3B-E3-5B-7B-B9-B9-D8-B3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2019-03-19T04:46:46.6637279Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DF-C9-61-37-67-FC-86-B5-19-6B-51-39-78-82-42-F2-94-44-FD-2F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2019-03-19T04:46:46.1168105Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="8A-2E-8F-D6-9D-39-02-4A-2F-30-FC-06-42-F7-0F-A8-32-69-07-72">
+      <ModulePath>C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\packages\NUnit.ConsoleRunner.3.11.1\tools\Mono.Cecil.dll</ModulePath>
+      <ModuleTime>2015-04-30T13:02:16Z</ModuleTime>
+      <ModuleName>Mono.Cecil</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="E7-66-5A-18-D3-04-27-DC-E1-A7-6B-CE-09-1D-64-31-67-96-A3-8F">
+      <ModulePath>C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\UnitTests\bin\Debug\nunit.framework.dll</ModulePath>
+      <ModuleTime>2016-10-03T17:52:56Z</ModuleTime>
+      <ModuleName>nunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4A-9D-81-85-DC-CF-74-ED-91-AC-6F-7B-37-3D-3E-0B-36-5C-56-66">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2019-07-24T02:58:28Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CC-DB-8A-78-1D-14-03-CA-9E-57-77-AD-02-B0-11-1E-9D-D0-F8-EB">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2019-12-07T06:03:04Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="04-92-31-F6-AF-DB-82-CE-7F-AD-A9-52-42-0C-26-C5-2A-65-10-FA">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2019-11-23T04:37:24.5053551Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="EE-3F-81-D6-82-05-D2-F8-18-B9-6D-B8-5A-92-EF-08-AB-67-B4-C7">
+      <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+      <ModulePath>C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\UnitTests\bin\Debug\UnitTests.dll</ModulePath>
+      <ModuleTime>2020-05-06T10:49:34.8694536Z</ModuleTime>
+      <ModuleName>UnitTests</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\vkirichenko\RiderProjects\coverallsTest\CoverallsTest\UnitTests\Tests.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>UnitTests.Tests</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void UnitTests.Tests::Test1()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="2" ordinal="1" offset="1" sl="12" sc="13" el="12" ec="31" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="3" ordinal="2" offset="8" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void UnitTests.Tests::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="4" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-94-4B-50-1E-D5-31-87-F3-25-6E-BA-07-71-E4-9F-22-0D-B8-34">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2019-03-19T04:46:51.77351Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CC-DB-8A-78-1D-14-03-CA-9E-57-77-AD-02-B0-11-1E-9D-D0-F8-EB">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2019-12-07T06:03:04Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>

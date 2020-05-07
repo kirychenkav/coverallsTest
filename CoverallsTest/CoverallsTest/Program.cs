@@ -2,11 +2,16 @@
 
 namespace CoverallsTest
 {
-    internal static class Program
+    public static class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("CoverallsTest");
+            Console.WriteLine(GetCurrentDateString());
+        }
+
+        public static string GetCurrentDateString()
+        {
+            return DateTime.Now.ToString("u");
         }
     }
 }
