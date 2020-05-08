@@ -21,6 +21,13 @@ namespace UnitTests
         }
         
         [Test]
+        public void Test3()
+        {
+            var date = Program.GetCurrentDateTimeString();
+            Assert.IsNotEmpty(date);
+        }
+        
+        [Test]
         public void FailTest()
         {
             var date = Program.GetCurrentDateString();
